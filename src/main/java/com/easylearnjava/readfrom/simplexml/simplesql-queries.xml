@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Write SQL queries.	</comment>
+
+	<entry key="CREATE_EMPLOYEE_TABLE">
+		CREATE TABLE EMPLOYEE(EMP_ID INT PRIMARY KEY, EMP_NAME
+		VARCHAR(255),
+		EMP_PASSWORD VARCHAR(255))
+	</entry>
+
+	<entry key="INSERT_EMPLOYEE_RECORDS">
+		INSERT INTO EMPLOYEE (EMP_ID, EMP_NAME, EMP_PASSWORD)
+		VALUES (?,?,?)
+	</entry>
+
+</properties>
