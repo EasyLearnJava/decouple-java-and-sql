@@ -7,7 +7,8 @@ import com.easylearnjava.util.DBConnection;
 public class PingServer {
 
 	public static void main(String[] args) {
-
+		
+		//test
 		//Get a connection object returned by getH2DBConnection method
 		Connection conn = DBConnection.getH2DBConnection();
 		try {
